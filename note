@@ -1,0 +1,2 @@
+dpkg-deb --build telequill-deb
+sudo apt remove telequill-nms
