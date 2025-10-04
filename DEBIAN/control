@@ -1,0 +1,10 @@
+Package: telequill-nms
+Version: 1.0.0
+Section: admin
+Priority: optional
+Architecture: all
+Maintainer: Your Name <you@example.com>
+Depends: bash, whiptail, git, curl, ca-certificates
+Description: Telequill NMS Installer
+ Interactive wizard that installs Docker, clones Telequill_Install,
+ builds the image and runs docker-compose.

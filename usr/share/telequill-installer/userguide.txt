@@ -1,0 +1,34 @@
+=========================================================
+                 Telequill NMS – User Guide
+=========================================================
+
+Overview
+--------
+Telequill NMS is an open-source platform for network
+monitoring and management. It uses Docker containers to
+simplify deployment and maintenance.
+
+System Requirements
+-------------------
+ • Ubuntu 20.04 or later (64-bit)
+ • At least 2 CPU cores and 4 GB RAM
+ • 20 GB free disk space
+ • Internet connectivity
+
+Installation Steps
+------------------
+ 1. The installer checks for Docker and installs it if missing.
+ 2. It clones the Telequill_Install repository to /opt/Telequill_Install.
+ 3. Docker images are built and the service stack is started.
+
+Basic Usage
+-----------
+ • Web UI:  https://<your-server-ip> (default port 443)
+ • Default login:  admin / admin  (change on first login)
+
+Support & Documentation
+-----------------------
+Official docs:  https://docs.telequill.example
+Community forum: https://community.telequill.example
+
+Press “Next” to continue to the license agreement.

@@ -1,0 +1,6 @@
+#!/bin/bash
+set -e
+# Make desktop launcher trusted for all users
+chmod 644 /usr/share/applications/telequill-install.desktop
+update-desktop-database
+exit 0

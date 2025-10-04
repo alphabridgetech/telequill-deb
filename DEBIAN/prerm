@@ -1,0 +1,21 @@
+#!/bin/bash
+set -e
+
+echo "Stopping Telequill NMS containers..."
+
+if command -v docker >/dev/null 2>&1; then
+    # Stop and remove the compose stack if present
+    if [ -f /opt/Telequill_Install/examples/compose/compose.yml ]; then
+        docker compose -f /opt/Telequill_Install/examples/compose/compose.yml down || true
+    fi
+fi
+
+# Ask if the user wants to delete the Telequill_Install directory
+read -p "Remove cloned /opt/Telequill_Install directory? [y/N] " ans
+case "$ans" in
+    [Yy]* ) rm -rf /opt/Telequill_Install ;;
+    * ) echo "Keeping /opt/Telequill_Install";;
+esac
+
+echo "Telequill NMS uninstall steps complete."
+exit 0

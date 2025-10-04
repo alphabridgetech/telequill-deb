@@ -1,0 +1,14 @@
+=========================================================
+        Welcome to the Telequill NMS Installer
+=========================================================
+
+Thank you for choosing Telequill Network Monitoring System (NMS).
+
+This wizard will guide you through:
+
+ • Reviewing the User Guide
+ • Reading and accepting the License Agreement
+ • Installing all required components (Docker, Git, etc.)
+ • Deploying the Telequill NMS application in Docker containers
+
+Press “Next” to begin.

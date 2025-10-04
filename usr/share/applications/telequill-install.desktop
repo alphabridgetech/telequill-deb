@@ -1,0 +1,8 @@
+[Desktop Entry]
+Name=Telequill NMS Installer
+Comment=Interactive installer for Telequill NMS
+Exec=bash -c "/usr/bin/telequill-install; exec bash"
+Icon=telequill
+Terminal=true
+Type=Application
+Categories=System;Utility;
