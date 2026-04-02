@@ -1,2 +1,26 @@
+for build 
 dpkg-deb --build telequill-deb
 sudo apt remove telequill-nms
+
+for install 
+dpkg -i telequill-deb.deb
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
