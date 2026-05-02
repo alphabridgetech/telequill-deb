@@ -1,6 +1,6 @@
 #!/bin/bash
 set -e
-#chmod 755 /usr/share/telequill-installer/install.sh
+chmod 755 /usr/share/telequill-installer/install.sh
 chmod 644 /usr/share/applications/telequill-install.desktop
 update-desktop-database
 exit 0
